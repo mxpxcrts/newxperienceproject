@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+	margin: 0 ;
+	padding: 0;
+		
+}
+header{
+	width: 100%;
+}
+/*Navegador*/
+nav {
+    top:-20px;
+    /*position: absolute;*/
+    float: left;
+	width:80%;
+ 	display: inline-block;
+}
+ 
+nav ul {
+	list-style:none;
+}
+
+#logo{
+	width: 20% ; 
+	height: 61px;
+	padding: 5px;
+	float: left ; 
+	text-align: center;
+	background-color: #173b9e;
+}
+img{
+	height:  100%;	
+}
+ /*Tamaño de la barra*/
+nav > ul {
+	display:table;
+	width:100%;
+	background:#173b9e;
+	float: right;
+}
+
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Documentos*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:26%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+
+}
+ 
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:33px;
+	padding:14px 0px 14px 0px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+		font-family: "GloriaHallelujah";
+	font-size: normal;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+nav > ul > li > ul > li {
+	margin-left: : 30px;
+	display:block;
+	text-align: center;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores Nav*/
+nav ul li a .inicio {
+	background:#0074e8;
+}
+ 
+nav ul li a .documentos {
+	background:#ffd635;
+}
+ 
+.icon-star-empty {
+	background:#000;
+}
+ 
+nav ul li a .contactenos {
+	background:#0074e8;
+}
+ 
+nav ul li a .salir {
+	background:#ffd635;
+}
+.icon-users{
+	background-color: #000;
+}
+ /* Principal*/
+main{
+	width: 100%;
+
+}	
+#Olvido{
+	background-image: url("../img/yoshi.jpeg ");
+	background-size: 100% 100%;
+	background-attachment: fixed; 
+	background-position: center ;
+}
+
+section{
+	padding-top: 50px;
+	width: 100% ;
+	height: 654px;
+	float: right;
+	border-bottom: 1px solid #002a9d;
+
+}
+footer{
+	width: 100%;
+	height: 40px;
+	background-color:#173b9e;
+	float: right;
+}	
+
+fieldset{
+	margin: 30px 20px ;
+	display: inline;
+
+}
+input{
+	display: block;
+	margin: 15px 50px;
+}
+
+
+form ul li {
+	display: none;
+	margin: 20px 20px;
+}
+
+label input/*[type="text"]*/{
+	display: inline-block;
+	padding: : 0px 10px;
+	margin: 0;
+}
+form{
+	font-family: kokila;
+	font-size: 20px;
+	color: #ffd635;
+	font-weight: 30px;
+	margin-top: 200px;
+	text-align: center;
+	/*border: 2px solid #111;*/
+
+}
+@font-face{
+		font-family:"GloriaHallelujah";
+		src: url(../fonts/GloriaHallelujah.ttf);
+	}
+

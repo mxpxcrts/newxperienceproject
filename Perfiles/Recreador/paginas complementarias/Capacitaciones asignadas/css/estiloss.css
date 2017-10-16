@@ -1,0 +1,393 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body {
+	background:#fff;
+}
+
+/*SECCIÓN*/
+
+section {
+	background: #fff;
+	width: 100%;
+	max-width: 1500px;
+	margin: 40px 10px 10px 10px;
+	font-family: "ebrima";
+	font-size: 14px;
+}
+#name {
+	width: 80%;
+	background: #fff;
+	margin-bottom: 15px;
+}
+#rango {
+	width: 20%;
+	background: #fff;
+	margin:5px;
+	display: inline-block;
+	float: lef;
+}
+#evento{
+	width: 20%;
+	background: #fff;
+	margin:5px;
+	float: left;
+	display: inline-block;
+}
+
+
+#tituloPerfil {
+	width: 100%;
+	padding: 5px 0px 0px 0px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#user {
+	width: 20%; 
+	height: 110px;
+	padding: 10px; /*Posicionamiento*/
+	float: left;
+}
+.user {
+	width: 70%;
+	height: 120%;
+	padding; 5px;
+}
+#datos {
+	width: 100%;
+	display: inline;
+	float:left;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.tabla {
+	width: 400px;
+	margin-bottom: 12px;
+}
+.tabla td {
+	text-align: left;
+	border: 1px;
+	font-size: 19px;
+}
+#parrafo {
+    width: 80%;
+	padding: 5px 0px 0px 0px;
+}
+
+/*NAV*/
+
+@font-face{
+		font-family:"GloriaHallelujah";
+		src: url(../fonts/GloriaHallelujah.ttf);
+}
+
+@font-face{
+	font-family:"Vladimir Script";
+	src: url(../fonts/VLADIMIR.TTF);
+}
+
+@font-face{
+	font-family:"PrincessSofia";
+	src: url(../fonts/PrincessSofia-Regular.ttf);
+}
+
+nav {
+	display: inline-block;
+    top:-55px;
+    position: relative;
+	/*margin:5px ;*/
+	width:20%;
+	font-family: "GloriaHallelujah";
+	font-size: 24px;
+	float: right;
+}
+
+header{
+	width: 100%;
+	height: 65px;
+	top:-12px;
+    position: absolute;
+	/*margin:20px;*/
+	float: right;
+	background-color: #173b9e;
+
+}
+ 
+nav ul {
+	list-style:none;
+}
+
+#logo{
+	width: 20% ; 
+	height: 60px;
+	padding: 20px 8px 8px 15px; /*Posicionamiento*/
+	background:#173b9e;
+}
+ /*Tamaño de la barra*/
+nav > ul {
+	display:table;
+	width:90%;
+	background:#173b9e;
+	float: right;
+}
+
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Documentos*/
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-45px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores Nav*/
+nav ul li a .inicio {
+	background:#0074e8;
+}
+ 
+nav ul li a .documentos {
+	background:#ffd635;
+}
+ 
+nav ul li a .usuario {
+	background:#000;
+}
+ 
+nav ul li a .contactenos {
+	background:#0074e8;
+}
+ 
+nav ul li a .salir {
+	background:#ffd635;
+}
+.main .articles {
+	width: 60%;
+	/*margin-left: 2%;*/
+	float: right;
+	margin-right: 10%;
+}
+.main .articles article {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px; 
+}
+
+#main-container{
+
+	width: 90%;
+}
+aside ul li {
+	font-family: "GloriaHallelujah";
+	font-size: 15px;
+	background:#173b9e;
+	list-style: none;
+	width: 20%;	
+	padding: 5px;
+	display: block;
+
+}
+aside ul {
+	margin-top: 10px;
+	display: block;
+}
+aside li {
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #fff;
+}
+p.menu {
+	position: relative;
+	padding-right: 25px;
+	color:#ffd635;
+	/*opacity: .6;*/
+	font-size: 1.2em;
+}
+p.art {
+	position: relative;
+	padding-right: 25px;
+	color:#ffd635;
+	/*opacity: .6;*/
+	font-size: 1.2em;
+}
+div.barra {
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background: #aaa;
+	/*opacity: .1;*/
+}
+aside li:hover div.barra{
+	width:250px;
+	height: 35px;
+}
+/*PIE DE PÁGINA*/
+/*Footer*/
+footer{
+	width: 100%;
+	height: 68	px;
+	background-color:#173b9e;
+	float: right;
+}	
+#contacto{
+	display: inline-block;
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	margin-left: 5%;
+}
+p{
+	display: inline-block;
+}
+
+.icon-phone-hang-up{
+	font-size: 1.5em;
+}
+#copy{
+	display: inline-block;
+	width: 30%;
+	height: 60%;
+	text-align:center ;
+	margin-left: 15%;
+
+}
+#iconos{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	float:right;
+}
+#iconos span{
+	display: inline-block;
+	font-size: 2em;
+	padding-left: 20px; 
+	margin: 10px;
+}
+
+
+
+
+/*Quejesto*/
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 50%;
+	position:relative;
+	top:px; 
+	bottom:-9px;
+	right:;
+	left:100px;  
+}
+
+th, td{
+	padding: 8px;
+}
+
+thead{
+	background-color: #0074e8;
+	border-bottom: solid 5px #173b9e;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #0074e8;
+	color: white;
+}
+#cajita{
+	display: inline-block;
+	height: 100px;
+	width: 20%;
+	float: right;
+}
+button{
+	position:relative;
+	top:px; 
+	bottom:400px;
+	right:;
+	left:880px; 
+
+}
